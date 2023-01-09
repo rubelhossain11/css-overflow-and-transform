@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css overflow</title>
+    <link rel="shortcut icon" href="css.jpg" type="image/x-icon" />
+    <style>
+      /* overflow */
+      .container1 {
+        width: 400px;
+        height: 400px;
+        border: 2px solid red;
+        overflow-x: scroll;
+      }
+      .mini-mini {
+        width: 200px;
+        border: 1px solid green;
+        white-space: nowrap;
+      }
+      .short {
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .small {
+        width: 300px;
+        border: 1px solid black;
+        white-space: nowrap;
+      }
+      .shortest {
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      /* transform  */
+      .container,
+      .inner {
+        width: 200px;
+        height: 200px;
+        border: 1px solid green;
+      }
+      .container {
+        background-color: purple;
+        margin-bottom: 100px;
+      }
+      .inner {
+        background-color: yellow;
+        transform: scale(0.75);
+        transform: rotate(45deg);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Transform and Transition</h1>
+    <div class="container">
+      <div class="inner">box-1</div>
+    </div>
+    <div class="container">
+      <div class="inner">box-2</div>
+    </div>
+    <div class="container">
+      <div class="inner">box-3</div>
+    </div>
+    <div class="small">
+      <p
+        class="shortest"
+        title=" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium
+      aliquid cum numquam distinctio laborum cumque eum facilis deleniti.
+      Beatae, laborum?"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium
+        aliquid cum numquam distinctio laborum cumque eum facilis deleniti.
+        Beatae, laborum?
+      </p>
+    </div>
+    <div class="mini-mini">
+      <p
+        class="short"
+        title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque est"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque est
+      </p>
+    </div>
+    <div class="container1">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis a iste
+        rem voluptates accusantium harum. Temporibus doloribus error voluptas
+        nemo! Expedita perferendis modi officiis consequatur ratione praesentium
+        animi quod corrupti doloremque. At consectetur excepturi accusamus,
+        praesentium dolor, numquam eaque, nisi nulla consequuntur similique quod
+        quo necessitatibus eos! Dolore quo dolorum alias cupiditate aperiam
+        similique perferendis eligendi? Doloremque, sint deserunt obcaecati quos
+        ullam quisquam maiores sed ex ducimus assumenda quasi aut explicabo
+        maxime facilis necessitatibus inventore impedit? Dolore enim, qui nisi
+        aliquam, dolor ea eius optio et, aliquid ipsam vel eveniet nobis
+        ducimus. Maiores porro perferendis iste, distinctio corporis, totam qui
+        possimus quos suscipit molestiae dicta tenetur sapiente ad enim
+        similique at voluptatem, nisi voluptatum iure quam saepe voluptates nemo
+        sit in! Animi, dignissimos facere expedita accusantium earum, quos
+        adipisci alias pariatur odit dolorum delectus deserunt, temporibus
+        quisquam magni sunt veritatis omnis quaerat excepturi itaque a
+        architecto ex soluta. Omnis placeat sapiente laborum veritatis earum
+        neque voluptatum voluptates corrupti amet autem atque laboriosam officia
+        at alias, doloremque molestias. At optio, fugiat dolor accusantium
+        labore iure quia vitae non ad ducimus quos obcaecati expedita adipisci
+        nam! Doloribus minima facilis provident dignissimos vero iure adipisci
+        eaque saepe, ratione animi eius commodi quos itaque sit molestias
+        aperiam quo eligendi, ea voluptate similique, inventore voluptatem qui
+        ipsa repellendus? Voluptates aspernatur repellat cumque voluptatibus
+        incidunt, aut accusantium obcaecati ut nulla, sint modi veritatis
+        repellendus suscipit quo quia expedita officiis dolor autem fugiat harum
+        asperiores? Nobis nulla dignissimos quam tenetur iusto velit qui dolore
+        unde aut inventore? Qui, cupiditate adipisci a fugit, facilis commodi
+        illo aliquid fuga voluptatem impedit eaque vero cum! Minima eum, debitis
+        fugit quod natus cupiditate sapiente assumenda officiis! Delectus vel
+        inventore, dicta consequuntur, expedita esse porro at beatae, aperiam ad
+        perferendis cumque ut quas iste molestiae. Reprehenderit facilis sint
+        obcaecati repellat aperiam autem doloribus tempora id voluptatem
+        mollitia laudantium voluptatibus repellendus ut consequatur eum quo
+        cumque dolorum, ducimus blanditiis amet fugiat? Assumenda, veniam sit?
+        Nemo doloribus ratione qui, rem minima quidem, cupiditate impedit
+        obcaecati soluta libero nam aliquid ullam possimus dignissimos! Sequi
+        maxime beatae nesciunt asperiores at aut accusamus tempore numquam
+        tenetur consequuntur nihil, ullam ab praesentium harum explicabo,
+        accusantium reiciendis ea earum ex, quo voluptas. Sapiente praesentium
+        reprehenderit necessitatibus, quod suscipit dolorum odio, reiciendis
+        iusto quia nisi fugiat eum, inventore ad consequuntur! Cupiditate
+        ratione neque corrupti ipsam sunt voluptas, quos iusto inventore?
+        Necessitatibus impedit, modi non totam sunt explicabo et porro eos?
+      </p>
+    </div>
+  </body>
+</html>
